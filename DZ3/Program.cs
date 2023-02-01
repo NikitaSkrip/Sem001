@@ -12,9 +12,9 @@ int a;
 
     if (a % 2 == 0)
     {
-        Console.WriteLine("Четное число");
+        Console.WriteLine("ДА");
     }
     else
     {
-        System.Console.WriteLine("Не четное число");
+        System.Console.WriteLine("НЕТ");
     }
