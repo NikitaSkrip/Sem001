@@ -16,7 +16,7 @@ bool not = true;
     if (N % 2 != 1)
     {
     Console.Write(N + ", ");
-     not = false;
+      not = false;
     }
     N++;
 }

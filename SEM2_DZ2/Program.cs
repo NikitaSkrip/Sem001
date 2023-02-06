@@ -1,12 +1,12 @@
 ﻿// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает,
 //  что третьей цифры нет.
 // 645 -> 5
-// 78 -> третьей цифры нет
+// 78 -> третьей цифры нет  MakeArray
 // 32679 -> 6
 
 int number = ReadInt("Введите число: ");
 int count = number.ToString().Length;
-Console.Write(MakeArray(number, count));
+Console.Write(numberA(number, count));
 
 int ReadInt(string message)
 {
@@ -14,7 +14,7 @@ int ReadInt(string message)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int MakeArray(int a, int b)
+int numberA(int a, int b)
 {
 int result = 0;
     if (b < 3)
